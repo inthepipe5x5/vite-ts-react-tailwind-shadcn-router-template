@@ -52,7 +52,9 @@ export function AboutPage() {
                 </CardContent>
             </Card>
 
-            <Button variant="outline">View Source</Button>
+            <a href="https://github.com/R0N7w7/vite-ts-react-tailwind-shadcn-router-template" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline">View Source</Button>
+            </a>
         </div>
     )
 }
