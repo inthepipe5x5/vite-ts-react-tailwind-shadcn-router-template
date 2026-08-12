@@ -13,6 +13,7 @@ export function Navigation() {
                         { to: '/', label: 'Home' },
                         { to: '/features', label: 'Features' },
                         { to: '/about', label: 'About' },
+                        { to: '/schema', label: 'Schema' },
                     ].map((i) => (
                         <NavLink key={i.to} to={i.to} className={({ isActive }) =>
                             `inline-block rounded-md ${isActive ? 'bg-white/10' : ''}`

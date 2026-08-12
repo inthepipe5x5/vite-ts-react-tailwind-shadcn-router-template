@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout';
 import { HomePage } from '../pages/HomePage';
 import { FeaturesPage } from '../pages/FeaturesPage';
 import { AboutPage } from '../pages/AboutPage';
-
+import { SchemaPage } from '../pages/schema-page';
 // Define the declarative route structure
 const AppRoutes: RouteObject[] = [
     {
@@ -21,6 +21,10 @@ const AppRoutes: RouteObject[] = [
             {
                 path: 'about',
                 element: <AboutPage />,
+            },
+            {
+                path: 'schema',
+                element: <SchemaPage />,
             },
             // Optional: Add a 404/Not Found route
             // {
